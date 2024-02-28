@@ -1,4 +1,4 @@
-package org.example.LessonOne;
+package org.example.Java.Basic;
 
 public class UnitOne {
     public static void main(String[] args) {
