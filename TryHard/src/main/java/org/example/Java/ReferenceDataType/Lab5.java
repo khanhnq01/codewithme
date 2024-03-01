@@ -7,7 +7,7 @@ public class Lab5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> list = new ArrayList<Double>();
-        int sum = 0;
+        double sum = 0;
         System.out.print("Enter a number: ");
         while (true){
             Double number = scanner.nextDouble();
@@ -22,6 +22,7 @@ public class Lab5 {
 //        for (Double number : list){
 //            sum += number;
 //        }
+        System.out.println("List: " + list.toString());
         System.out.println("Sum: " + sum);
 }
 }
