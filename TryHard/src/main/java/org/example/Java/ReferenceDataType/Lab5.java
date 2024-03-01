@@ -8,10 +8,11 @@ public class Lab5 {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> list = new ArrayList<Double>();
         int sum = 0;
+        System.out.print("Enter a number: ");
         while (true){
             Double number = scanner.nextDouble();
             list.add(number);
-            System.out.println("If you don't want to continue enter (N)");
+            System.out.print("If you want to check sum pls enter (N/n), else press any key to continue:");
             sum += number;
             if (scanner.next().toUpperCase().equalsIgnoreCase("N")){
                 break;
