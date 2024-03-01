@@ -17,6 +17,7 @@ public class Lab5 {
             if (scanner.next().toUpperCase().equalsIgnoreCase("N")){
                 break;
             }
+            System.out.print("Enter a number: ");
         }
 //        for (Double number : list){
 //            sum += number;
