@@ -12,7 +12,7 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "khanhnq01-master" ]
 
 jobs:
   build:
